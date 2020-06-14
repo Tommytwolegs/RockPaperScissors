@@ -56,12 +56,14 @@ function game(){
     let output = 'try again';
     if (round == 0){
         playerScore = playerScore + 1;
-        output = 'You Win! ' + player + ' beats ' + computer + '. Score is ' + playerScore + ' to ' + computerScore;  
+        output = 'You Win! ' + player + ' beats ' + computer + '. Score is ' 
+        + playerScore + ' to ' + computerScore;  
         return output; 
     }
     else if (round == 1){
         computerScore = computerScore + 1;
-        output = 'You Lose! ' + computer + ' beats ' + player + '. Score is ' + playerScore + ' to ' + computerScore;
+        output = 'You Lose! ' + computer + ' beats ' + player + '. Score is ' 
+        + playerScore + ' to ' + computerScore;
         return output;
     }
     else{
